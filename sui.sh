@@ -1,7 +1,7 @@
 #!/bin/bash
 
 function logo {
-  bash <(curl -s https://raw.githubusercontent.com/chiko911/useful-scripts/introduce.sh)
+  bash <(curl -s https://raw.githubusercontent.com/chiko911/useful-scripts/main/introduce.sh)
 }
 
 function line {
@@ -15,11 +15,11 @@ function colors {
 }
 
 function main_tools {
-  bash <(curl -s https://raw.githubusercontent.com/chiko911/useful-scripts/tools.sh)
+  bash <(curl -s https://raw.githubusercontent.com/chiko911/useful-scripts/main/tools.sh)
 }
 
 function docker {
-  bash <(curl -s https://raw.githubusercontent.com/chiko911/useful-scripts/docker.sh)
+  bash <(curl -s https://raw.githubusercontent.com/chiko911/useful-scripts/main/docker.sh)
 }
 
 function prepare {
