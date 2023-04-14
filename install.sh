@@ -55,4 +55,4 @@ line
 run_docker
 line
 echo "installation complete, check logs by command:"
-echo "docker-compose -f $HOME/sui/docker-compose.yaml logs -f --tail=100"
+echo "docker compose -f $HOME/sui/docker-compose.yaml logs -f --tail=100"
