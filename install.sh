@@ -33,6 +33,7 @@ function prepare {
 }
 
 function run_docker {
+  cd sui
   docker compose up -d
 }
 
